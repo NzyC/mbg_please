@@ -31,9 +31,9 @@ class Footer extends React.Component {
                                         </div>
                                         <p className="max-w400">We are a passionate and experienced team looking to transform our clients visions into a reality. We cover High end outdoor entertaining areas, both commercial and residential. Contact us today!</p>
                                         <ul className="social-icons  mt-social-links">
-                                            <li><NavLink to={"mailto:monumentalbuilding@outlook.com.au"} className="fa fa-google" /></li>
-                                            <li><NavLink to={"https://www.facebook.com/MonumentalBG"} className="fa fa-facebook" /></li>
-                                            <li><NavLink to={"https://www.instagram.com/monumental_building/"} className="fa fa-instagram" /></li>
+                                            <li><a target='_blank' href={"mailto:monumentalbuilding@outlook.com.au"} className="fa fa-google" /></li>
+                                            <li><a target='_blank' href={"https://www.facebook.com/MonumentalBG"} className="fa fa-facebook" /></li>
+                                            <li><a target='_blank' href={"https://www.instagram.com/monumental_building/"} className="fa fa-instagram" /></li>
                                         </ul>
                                     </div>
                                 </div>
