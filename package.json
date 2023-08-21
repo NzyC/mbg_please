@@ -1,6 +1,7 @@
 {
   "name": "shapen",
   "version": "0.1.0",
+  "homepage": "https://mbg-please-rerpw00n7-nzyc.vercel.app/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",

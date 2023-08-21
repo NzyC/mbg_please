@@ -1,17 +1,17 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Home from './Pages/Home';
-import About from './Pages/About'
-import Services from './Pages/Services';
-import ContactUs from './Pages/ContactUs';
-import ProjectMasonary from './Pages/ProjectMasonary';
-import ProjectClassic1 from './Pages/ProjectClassic1';
-import ListGroup from './Pages/ListGroup';
+import Home from '../../src/components/Pages/Home';
+import About from '../..//src/components/Pages/About'
+import Services from '../..//src/components/Pages/Services';
+import ContactUs from '../..//src/components/Pages/ContactUs';
+import ProjectMasonary from '../..//src/components/Pages/ProjectMasonary';
+import ProjectClassic1 from '../..//src/components/Pages/ProjectClassic1';
+import ListGroup from '../..//src/components/Pages/ListGroup';
 
 class Components extends React.Component {
     render() {
         return (
-            <BrowserRouter basename="/">
+            <BrowserRouter>
                 <div className="page-wraper">
                         <Routes>
                             <Route path="/"  element={<Home/>} />
