@@ -63,7 +63,7 @@ class Blogs extends React.Component {
                                     <div className="col-md-4 col-sm-6" key={index}>
                                         <div className="mt-box blog-post latest-blog-3 date-style-1 bg-white m-b30">
                                             <div className="mt-post-media mt-img-overlay7">
-                                                <NavLink to="/post-image"><img src={item.image} alt=""/></NavLink>
+                                                <img src={item.image} alt=""/>
                                             </div>
                                             <div className="mt-post-info p-a30">
                                                 <div className="post-overlay-position">
