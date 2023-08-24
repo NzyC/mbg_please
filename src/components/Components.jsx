@@ -13,7 +13,6 @@ class Components extends React.Component {
         return (
             <BrowserRouter>
                 <div className="page-wraper">
-                        <Routes>
                             <Route path="/"  element={<Home/>} />
                             <Route path='/about' element={<About/>} />
                             <Route path='/services' element={<Services/>} />
@@ -21,7 +20,6 @@ class Components extends React.Component {
                             <Route path='/partners' element={<ProjectClassic1/>} />
                             <Route path='/gallery' element={<ProjectMasonary/>} />
                             <Route path='/reviews' element={<ListGroup/>} />
-                        </Routes>
                 </div>
             </BrowserRouter>
         );
